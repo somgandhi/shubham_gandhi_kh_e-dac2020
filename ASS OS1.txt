@@ -1,0 +1,109 @@
+Q2
+ 
+A)mkdir a b c 
+B)cd a touch a.txt b.txt c.txt c
+
+
+
+
+
+ 
+ Q3 
+
+A)cat>file1.txt "message"  
+
+cat>file2.txt "message"  
+ 
+cat>file3.txt "message"  
+ 
+cat>file4.txt "message"  
+ 
+cat>file5.txt "message"  
+
+
+ 
+B)touch a.txt b.txt c.txt d.txt e.txt 
+ 
+
+
+
+
+
+Q4 
+
+
+
+A)vi fiel.txt 
+ 
+B)cat -n file.txt 
+ 
+c)to display number of each content line cat -b file.txt 
+ 
+d)tac file.txt 
+ 
+
+
+
+
+
+
+
+ Q5 
+ 
+A)sort file1.txt 
+B)ls -a 
+C)ls -al 
+D)ls -r ls -t ls-rt
+
+
+
+
+
+=====================================================================================================================
+
+
+
+
+
+ 
+ 
+Q1  mkdir vipul touch a.txt b.txt c.txt d.txt 
+ chmod +rw a.txt b.txt 
+chmod +w c.txt 
+cat>d.hs #/bin/sh 
+chmod +x d.sh 
+ 
+
+
+Q2 chmod +x vipul 
+Q3 chmod -x vipul chmod -r vipul 
+Q4 echo $(file.txt) 
+Q5 echo>>"HELLO THIS IS MESSAGE" >> file.txt 
+
+
+============================================================================================================================================================
+
+
+Q1 
+mkdir a cd a mkdir b cd b mkdir c 
+touch file.txt 
+cp c a  
+cp a b 
+
+
+
+Q2 
+chmod +r c cp a c 
+Q4
+cd b mkdir data 
+Q5
+chmod +rw b 
+Q6
+cd b touch data.txt 
+Q10
+mv c copied_dir 
+ 
+Q11
+chmod +x copied_dir 
+Q12
+cd copied_dir 
