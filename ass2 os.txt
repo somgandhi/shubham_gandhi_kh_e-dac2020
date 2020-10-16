@@ -1,0 +1,115 @@
+Q1
+
+mkdir a1
+mkdir a2
+mkdir a3
+mkdir a4
+mkdir a5
+mkdir a6
+mkdir a7
+mkdir a8
+mkdir a9
+mkdir a10
+
+***************************************************
+
+Q2
+
+a)length $strvar
+b)strcpy
+
+
+
+*****************************************************
+
+Q3
+
+echo "Enter Num1"
+read num1
+echo "Enter Num2"
+read num2
+echo "Enter Num3"
+read num3
+
+if [ $num1 -gt $num2 ] && [ $num1 -gt $num3 ]
+then
+    echo $num1
+elif [ $num2 -gt $num1 ] && [ $num2 -gt $num3 ]
+then
+    echo $num2
+else
+    echo $num3
+fi
+
+
+*********************************************************
+
+Q4
+
+echo "Enter Size(N)"
+read N
+
+i=1
+sum=0
+
+echo "Enter Numbers"
+while [ $i -le $N ]
+do
+  read num               #get number
+  sum=$((sum + num))     #sum+=num
+  i=$((i + 1))
+done
+
+avg=$(echo $sum / $N | bc -l)
+
+echo $avg
+
+*******************************************************************
+Q5
+$ ncal
+
+
+**********************************************************************
+
+Q6
+
+
+
+#!/ bin / bash 
+
+read - p "Enter string:" string 
+	// getting the length of given string 
+	len 
+	= $ 
+{ 
+	#string 
+} 
+
+for ((i = $len - 1; i >= 0; i--)) 
+	do
+	reverse = "$reverse${string:$i:1}" done 
+		echo "$reverse"
+
+****************************************************************************************
+Q7
+
+clear
+echo "Enter a number"
+read n
+sd=0
+rev=0
+
+while [ $n -gt 0 ]
+do
+    sd=$(( $n % 10 ))
+    rev=$(( $rev *\ 10 + $sd ))
+    n=$(( $n / 10 ))
+done
+
+echo "Reverse number of entered digit is $rev"
+
+**************************************************END*********************************************
+
+
+
+
